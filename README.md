@@ -23,6 +23,7 @@ title: "My Document"
 format: html
 filters:
   - open-links-new-tab
+---
 ```
 
 ## Example
