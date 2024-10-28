@@ -1,0 +1,11 @@
+---
+title: "Open-links-new-tab Example"
+filters:
+  - open-links-new-tab
+---
+
+## Heading
+
+This filter adds formatting to heading text.
+
+
