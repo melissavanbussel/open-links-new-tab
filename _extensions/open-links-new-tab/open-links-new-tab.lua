@@ -1,6 +1,4 @@
-
--- Reformat all heading text 
-function Header(el)
-  el.content = pandoc.Emph(el.content)
+function Link(el)
+  el.target = "_blank"
   return el
 end
