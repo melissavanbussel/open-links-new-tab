@@ -1,13 +1,13 @@
-# Open-links-new-tab Extension For Quarto
+# Open links in new tab Extension For Quarto
 
-_TODO_: Add a short description of your extension.
+This Quarto extension will make all links in your Quarto project open in a new tab. 
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
+Install this extension in your Quarto project by running the following in the terminal: 
 
 ```bash
-quarto add <github-organization>/open-links-new-tab
+quarto add melissavanbussel/open-links-new-tab
 ```
 
 This will install the extension under the `_extensions` subdirectory.
@@ -15,9 +15,16 @@ If you're using version control, you will want to check in this directory.
 
 ## Using
 
-_TODO_: Describe how to use your extension.
+After installing the extension for your project, activate it by adding the following to your Quarto document YAML: 
+
+```
+---
+title: "My Document"
+format: html
+filters:
+  - open-links-new-tab
+```
 
 ## Example
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
-

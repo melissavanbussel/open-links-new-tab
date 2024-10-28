@@ -4,8 +4,6 @@ filters:
   - open-links-new-tab
 ---
 
-## Heading
+# This is a heading
 
-This filter adds formatting to heading text.
-
-
+And this is a [link](https://www.google.com) that will automatically open in a new tab. 
